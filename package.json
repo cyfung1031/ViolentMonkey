@@ -5,7 +5,7 @@
   "scripts": {
     "prepare": "husky install",
     "dev": "gulp dev",
-    "prebuild": "bun run ci",
+    "prebuild": "yarn ci",
     "build": "cross-env NODE_ENV=production gulp build",
     "build:selfHosted": "cross-env TARGET=selfHosted BETA=1 run-s build",
     "analyze": "cross-env RUN_ENV=analyze run-s build",
@@ -84,9 +84,9 @@
     "vue-loader": "^17.3.1",
     "vue-tsc": "^1.8.25",
     "webpack": "^5.89.0",
-    "webpack-bundle-analyzer": "^4.9.0",
+    "webpack-bundle-analyzer": "^4.10.1",
     "webpack-cli": "^5.1.4",
-    "wrapper-webpack-plugin": "2.2.2"
+    "wrapper-webpack-plugin": "^2.2.2"
   },
   "author": "Gerald <i@gerald.top>",
   "repository": {
