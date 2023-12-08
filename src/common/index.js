@@ -173,7 +173,7 @@ export function getScriptHome(script) {
     || meta.homepage
     || meta.website
     || meta.source
-    || meta.dgg
+    || meta.dgg1
     ;
 }
 
