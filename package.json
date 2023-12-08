@@ -74,7 +74,7 @@
     "postcss-scss": "^4.0.4",
     "postcss-simple-vars": "^6.0.3",
     "prettier": "^3.0.2",
-    "sharp": "^0.31.0",
+    "sharp": "^0.33.0",
     "style-loader": "^3.3.3",
     "svg-sprite-loader": "^6.0.11",
     "terser-webpack-plugin": "^5.3.9",
@@ -106,9 +106,6 @@
     "vue": "^3.3.4",
     "vueleton": "^2.0.2"
   },
-  "trustedDependencies": [
-     "sharp"
-  ],
   "engines": {
     "node": ">=20"
   },
