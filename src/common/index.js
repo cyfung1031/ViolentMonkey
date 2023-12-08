@@ -172,7 +172,9 @@ export function getScriptHome(script) {
     || script[INFERRED]?.[HOMEPAGE_URL]
     || meta.homepage
     || meta.website
-    || meta.source;
+    || meta.source
+    || meta.dgg
+    ;
 }
 
 /**
