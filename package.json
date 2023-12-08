@@ -106,6 +106,9 @@
     "vue": "^3.3.4",
     "vueleton": "^2.0.2"
   },
+  "trustedDependencies": [
+     "sharp"
+  ],
   "engines": {
     "node": ">=20"
   },
