@@ -74,7 +74,7 @@
     "postcss-scss": "^4.0.4",
     "postcss-simple-vars": "^6.0.3",
     "prettier": "^3.1.0",
-    "sharp": "0.33.0-alpha.3",
+    "sharp": "^0.33.1",
     "style-loader": "^3.3.3",
     "svg-sprite-loader": "^6.0.11",
     "terser-webpack-plugin": "^5.3.9",
@@ -107,7 +107,7 @@
     "vueleton": "^2.0.2"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=21.0.0"
   },
   "jest": {
     "setupFilesAfterEnv": [
