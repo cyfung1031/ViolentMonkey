@@ -3,7 +3,6 @@ name: CI
 on:
   workflow_dispatch:
   push:
-    branches: [master]
     tags-ignore:
       - 'v*' # version-tagged commits are releases which have their own workflow
     paths-ignore:
@@ -11,8 +10,6 @@ on:
       - src/types.d.ts
       - LICENSE
       - README.md
-  pull_request:
-    branches: [master]
 
 jobs:
   ci:
